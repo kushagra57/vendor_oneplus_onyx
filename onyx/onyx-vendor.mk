@@ -131,7 +131,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/onyx/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
     vendor/oneplus/onyx/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
     vendor/oneplus/onyx/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
-    vendor/oneplus/onyx/proprietary/lib/libmdmdetect.so:system/lib/libmdmdetect.so \
     vendor/oneplus/onyx/proprietary/lib/libparam.so:system/lib/libparam.so \
     vendor/oneplus/onyx/proprietary/lib/libwcnss_qmi.so:system/lib/libwcnss_qmi.so \
     vendor/oneplus/onyx/proprietary/vendor/lib/egl/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so \
@@ -238,17 +237,13 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/onyx/proprietary/vendor/lib/liboemcamera.so:system/vendor/lib/liboemcamera.so \
     vendor/oneplus/onyx/proprietary/vendor/lib/libOpenCL.so:system/vendor/lib/libOpenCL.so \
     vendor/oneplus/onyx/proprietary/vendor/lib/libperipheral_client.so:system/vendor/lib/libperipheral_client.so \
-    vendor/oneplus/onyx/proprietary/vendor/lib/libqcci_legacy.so:system/vendor/lib/libqcci_legacy.so \
     vendor/oneplus/onyx/proprietary/vendor/lib/libqdi.so:system/vendor/lib/libqdi.so \
     vendor/oneplus/onyx/proprietary/vendor/lib/libqdp.so:system/vendor/lib/libqdp.so \
     vendor/oneplus/onyx/proprietary/vendor/lib/libqmi_cci.so:system/vendor/lib/libqmi_cci.so \
     vendor/oneplus/onyx/proprietary/vendor/lib/libqmi_client_helper.so:system/vendor/lib/libqmi_client_helper.so \
-    vendor/oneplus/onyx/proprietary/vendor/lib/libqmi_client_qmux.so:system/vendor/lib/libqmi_client_qmux.so \
     vendor/oneplus/onyx/proprietary/vendor/lib/libqmi_common_so.so:system/vendor/lib/libqmi_common_so.so \
     vendor/oneplus/onyx/proprietary/vendor/lib/libqmi_csi.so:system/vendor/lib/libqmi_csi.so \
     vendor/oneplus/onyx/proprietary/vendor/lib/libqmi_encdec.so:system/vendor/lib/libqmi_encdec.so \
-    vendor/oneplus/onyx/proprietary/vendor/lib/libqmiservices.so:system/vendor/lib/libqmiservices.so \
-    vendor/oneplus/onyx/proprietary/vendor/lib/libqmi.so:system/vendor/lib/libqmi.so \
     vendor/oneplus/onyx/proprietary/vendor/lib/libqomx_jpegdec.so:system/vendor/lib/libqomx_jpegdec.so \
     vendor/oneplus/onyx/proprietary/vendor/lib/libqomx_jpegenc.so:system/vendor/lib/libqomx_jpegenc.so \
     vendor/oneplus/onyx/proprietary/vendor/lib/libQSEEComAPI.so:system/vendor/lib/libQSEEComAPI.so \
@@ -284,6 +279,11 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libril \
     libwpa_qmi_eap_proxy \
+    libmdmdetect \
+    libqcci_legacy \
+    libqmi \
+    libqmiservices \
+    libqmi_client_qmux \
     libtime_genoff \
     libTimeService \
     shutdownlistener \
