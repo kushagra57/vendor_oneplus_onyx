@@ -55,6 +55,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/onyx/proprietary/lib/libopcamerahw_interface.so:system/lib/libopcamerahw_interface.so \
     vendor/oneplus/onyx/proprietary/lib/libparam.so:system/lib/libparam.so \
     vendor/oneplus/onyx/proprietary/lib/libwcnss_qmi.so:system/lib/libwcnss_qmi.so \
+    vendor/oneplus/onyx/proprietary/lib/libOmxVdecHevc.so:system/lib/libOmxVdecHevc.so \
     vendor/oneplus/onyx/proprietary/vendor/lib/egl/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so \
     vendor/oneplus/onyx/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
     vendor/oneplus/onyx/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:system/vendor/lib/egl/libGLESv1_CM_adreno.so \
