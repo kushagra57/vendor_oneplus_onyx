@@ -152,6 +152,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/onyx/proprietary/lib/libopbaselib.so:system/lib/libopbaselib.so \
     vendor/oneplus/onyx/proprietary/lib/libopcamera.so:system/lib/libopcamera.so \
     vendor/oneplus/onyx/proprietary/lib/libopcameralib.so:system/lib/libopcameralib.so \
+    vendor/oneplus/onyx/proprietary/lib/libOmxVdecHevc.so:system/lib/libOmxVdecHevc.so \
     vendor/oneplus/onyx/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
     vendor/oneplus/onyx/proprietary/vendor/lib/egl/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so \
     vendor/oneplus/onyx/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
