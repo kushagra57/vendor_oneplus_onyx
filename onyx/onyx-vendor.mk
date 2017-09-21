@@ -298,6 +298,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/onyx/proprietary/vendor/lib/libsensor_user_cal.so:system/vendor/lib/libsensor_user_cal.so \
     vendor/oneplus/onyx/proprietary/vendor/lib/libsmemlog.so:system/vendor/lib/libsmemlog.so \
     vendor/oneplus/onyx/proprietary/vendor/lib/libssd.so:system/vendor/lib/libssd.so \
+    vendor/oneplus/onyx/proprietary/vendor/lib/libstlport.so:system/vendor/lib/libstlport.so \
     vendor/oneplus/onyx/proprietary/vendor/lib/libsystem_health_mon.so:system/vendor/lib/libsystem_health_mon.so \
     vendor/oneplus/onyx/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
     vendor/oneplus/onyx/proprietary/vendor/lib/libthermalioctl.so:system/vendor/lib/libthermalioctl.so \
