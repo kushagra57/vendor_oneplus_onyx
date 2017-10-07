@@ -124,7 +124,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/onyx/proprietary/vendor/bin/irsc_util:system/vendor/bin/irsc_util \
     vendor/oneplus/onyx/proprietary/vendor/bin/loc_launcher:system/vendor/bin/loc_launcher \
     vendor/oneplus/onyx/proprietary/vendor/bin/mm-qcamera-daemon:system/vendor/bin/mm-qcamera-daemon \
-    vendor/oneplus/onyx/proprietary/vendor/bin/mpdecision:system/vendor/bin/mpdecision \
     vendor/oneplus/onyx/proprietary/vendor/bin/netmgrd:system/vendor/bin/netmgrd \
     vendor/oneplus/onyx/proprietary/vendor/bin/qmuxd:system/vendor/bin/qmuxd \
     vendor/oneplus/onyx/proprietary/vendor/bin/qseecomd:system/vendor/bin/qseecomd \
