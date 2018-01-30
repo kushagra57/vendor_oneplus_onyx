@@ -133,7 +133,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/onyx/proprietary/lib/libOmxVdecHevc.so:system/lib/libOmxVdecHevc.so \
     vendor/oneplus/onyx/proprietary/priv-app/OnePlusCamera/lib/arm/libopbaselib.so:system/priv-app/OnePlusCamera/lib/arm/libopbaselib.so \
     vendor/oneplus/onyx/proprietary/vendor/bin/adsprpcd:system/vendor/bin/adsprpcd \
-    vendor/oneplus/onyx/proprietary/vendor/bin/btnvtool:system/vendor/bin/btnvtool \
     vendor/oneplus/onyx/proprietary/vendor/bin/charger_monitor:system/vendor/bin/charger_monitor \
     vendor/oneplus/onyx/proprietary/vendor/bin/hci_qcomm_init:system/vendor/bin/hci_qcomm_init \
     vendor/oneplus/onyx/proprietary/vendor/bin/irsc_util:system/vendor/bin/irsc_util \
