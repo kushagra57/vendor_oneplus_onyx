@@ -31,7 +31,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/onyx/proprietary/vendor/bin/qmuxd:system/vendor/bin/qmuxd \
     vendor/oneplus/onyx/proprietary/vendor/bin/qseecomd:system/vendor/bin/qseecomd \
     vendor/oneplus/onyx/proprietary/vendor/bin/radish:system/vendor/bin/radish \
-    vendor/oneplus/onyx/proprietary/vendor/bin/rild:system/vendor/bin/rild \
     vendor/oneplus/onyx/proprietary/vendor/bin/rfs_access:system/vendor/bin/rfs_access \
     vendor/oneplus/onyx/proprietary/vendor/bin/rmt_storage:system/vendor/bin/rmt_storage \
     vendor/oneplus/onyx/proprietary/vendor/bin/sensors.qcom:system/vendor/bin/sensors.qcom \
@@ -292,7 +291,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/onyx/proprietary/vendor/lib/libqomx_jpegdec.so:system/vendor/lib/libqomx_jpegdec.so \
     vendor/oneplus/onyx/proprietary/vendor/lib/libqomx_jpegenc.so:system/vendor/lib/libqomx_jpegenc.so \
     vendor/oneplus/onyx/proprietary/vendor/lib/libqti-perfd-client.so:system/vendor/lib/libqti-perfd-client.so \
-    vendor/oneplus/onyx/proprietary/vendor/lib/librilutils.so:system/vendor/lib/librilutils.so \
     vendor/oneplus/onyx/proprietary/vendor/lib/libril-qc-qmi-1.so:system/vendor/lib/libril-qc-qmi-1.so \
     vendor/oneplus/onyx/proprietary/vendor/lib/libril-qc-radioconfig.so:system/vendor/lib/libril-qc-radioconfig.so \
     vendor/oneplus/onyx/proprietary/vendor/lib/libril-qcril-hook-oem.so:system/vendor/lib/libril-qcril-hook-oem.so \
@@ -324,7 +322,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libloc_api_v02 \
     libloc_ds_api \
-    libril \
     libTimeService \
     libmm-abl \
     libtime_genoff \
